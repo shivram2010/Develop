@@ -1,6 +1,5 @@
 package stepdefination;
 
-<<<<<<< HEAD
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
@@ -61,8 +60,3 @@ public class AddToCart {
     }
 
 }
-=======
-public class AddToCart {
-
-}
->>>>>>> bfd4e4a691ba494be6e78603f8edda6ce2dbac9a
