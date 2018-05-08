@@ -1,0 +1,32 @@
+package stepdefination;
+
+import base.ApplicationConstants;
+import base.InfrastructureOperations;
+import cucumber.api.Scenario;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+
+@RunWith(Cucumber.class)
+public class Megamenu {
+
+    @Given("^application is launched on \"([^\"]*)\" browser   $")
+    public void application_is_launched_on_something_browser(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+    @Given("^site (.+)$")
+    public void site(String url) throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on MegaMenu $")
+    public void user_clicks_on_megamenu() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^user is on the SummerDressesPage$")
+    public void user_is_on_the_summerdressespage() throws Throwable {
+        throw new PendingException();
+    }
+
+}

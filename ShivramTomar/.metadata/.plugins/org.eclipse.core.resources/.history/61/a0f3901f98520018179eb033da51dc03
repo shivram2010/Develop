@@ -1,0 +1,36 @@
+package stepdefination;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+
+import base.ApplicationConstants;
+import base.InfrastructureOperations;
+import cucumber.api.Scenario;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+
+public class AddToCart {
+
+    @Given("^Product is selected   $")
+    public void application_is_launched_on_something_browser(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+    @Given("^user clicks on AddToCart$")
+    public void user_clicks_on_addtocart() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user validates Name$")
+    public void user_validates_name() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^Name is correct$")
+    public void name_is_correct() throws Throwable {
+        throw new PendingException();
+    }
+
+}
