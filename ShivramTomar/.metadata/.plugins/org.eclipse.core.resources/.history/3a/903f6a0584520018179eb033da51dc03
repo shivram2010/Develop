@@ -1,0 +1,32 @@
+package stepdefination;
+
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+
+import base.ApplicationConstants;
+import base.InfrastructureOperations;
+import cucumber.api.Scenario;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+
+public class SortByPrice {
+
+    @Given("^user is on SummerDressesPage   $")
+    public void user_is_on_summerdressespage() throws Throwable {
+    	System.out.println("Clicked on Summer Dresses");
+    	driver.findElement(By.xpath("//div[2]/div/div/nav/div[1]/a")).click();
+    	Assert.assertTrue("Summer Dresses "+text, text.equalsIgnoreCase("Your personal information"));
+    }
+
+    @When("^user clicks on  Sortbydropdownoption$")
+    public void user_clicks_on_sortbydropdownoption() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^user gets the OptionAddressed$")
+    public void user_gets_the_optionaddressed() throws Throwable {
+        throw new PendingException();
+    }
+
+}
